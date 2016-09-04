@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    window.setTimeout(function(){$(".c1").hide();$(".data").show('slow');},100);
+    window.setTimeout(function(){$(".c1").hide();$(".data").show('slow');},10000);
 });
 $(".navbar-nav li").click(function(){
 	$(".navbar-nav").children().removeClass("active");
